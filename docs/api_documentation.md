@@ -71,9 +71,9 @@ This API uses JWT-based authentication. All protected routes require the Authori
 
 ## 📌 Task management Endpoints
 🔐 Authorization Required:
-All task endpoints require a valid JWT.
-Only Admins can create, update, delete.
-All authenticated users can view tasks.
+- All task endpoints require a valid JWT.
+- Only Admins can create, update, delete.
+- All authenticated users can view tasks.
 
 ---
 
