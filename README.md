@@ -70,6 +70,3 @@ go get github.com/gin-gonic/gin
 - 📄 docs/api_documentation.md
 
 
-🔍 API Documentation For full details on how to use the API (request/response formats), go to:
-
-📄 docs/api_documentation.md
