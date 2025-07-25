@@ -1,5 +1,5 @@
 # 📝 Task Management REST API (Go + Gin)
-**This project is a simple Task Management REST API built using Go, the Gin Web Framework, and MongoDB as the database. It includes JWT-based authentication and authorization and supports full CRUD operations with role-based access control.**
+**This project is a simple Task Management REST API built using Go, the Gin Web Framework, and MongoDB as the database. It includes JWT-based authentication and authorization and supports full CRUD operations with role-based access control. All using Clean Architecture**
 
 **🚀 Features**
 - ✅ User registration and login with hashed passwords
@@ -11,26 +11,25 @@
 - ✅ MongoDB integration
 
 📂 Folder Structure
-```task_manager/
-task_manager/
-├── main.go                   # App entry point
-├── controllers/              # HTTP handlers
-│   └── task_controller.go
-│   └── user_controller.go
-├── models/                   # Data models
-│   ├── task.go
-│   └── user.go
-├── data/                     # Business logic & data layer
-│   ├── task_service.go
-│   └── user_service.go
-├── middleware/               # JWT & Role auth middleware
-│   └── auth_middleware.go
-├── router/                   # Route configuration
-│   └── router.go
-├── docs/                     # Documentation
-│   └── api_documentation.md
-└── go.mod                    # Go module definition
-
+```task-manager/
+├── Delivery/
+│   ├── main.go
+│   ├── controllers/
+│   │   └── controller.go
+│   └── routers/
+│       └── router.go
+├── Domain/
+│   └── domain.go
+├── Infrastructure/
+│   ├── auth_middleWare.go
+│   ├── jwt_service.go
+│   └── password_service.go
+├── Repositories/
+│   ├── task_repository.go
+│   └── user_repository.go
+└── Usecases/
+    ├── task_usecases.go
+    └── user_usecases.go
 ```
 
 
