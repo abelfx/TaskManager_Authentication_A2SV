@@ -1,5 +1,5 @@
 # 📝 Task Management REST API (Go + Gin)
-**This project is a simple Task Management REST API built using Go, the Gin Web Framework, and MongoDB as the database. It includes JWT-based authentication and authorization and supports full CRUD operations with role-based access control. All using Clean Architecture**
+**This project is a simple Task Management REST API built using Go, the Gin Web Framework, and MongoDB as the database. It includes JWT-based authentication and authorization and supports full CRUD operations with role-based access control.**
 
 **🚀 Features**
 - ✅ User registration and login with hashed passwords
